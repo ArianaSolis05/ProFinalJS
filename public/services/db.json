@@ -1,4 +1,25 @@
 {
   "ticket": [],
-  "usuarios": []
+  "usuarios": [
+    {
+      "id": "6e14",
+      "nombreCompleto": "luis",
+      "correoUsuario": "lzeledon.fwd21@gmail.com",
+      "telUsuario": "1234555",
+      "fechaNacimiento": "1998-04-13",
+      "nombreUsuario": "LuisZ",
+      "claveUsuario": "1234",
+      "nacionalidadUsuario": "Costa Rica"
+    },
+    {
+      "id": "3368",
+      "nombreCompleto": "a",
+      "correoUsuario": "b",
+      "telUsuario": "",
+      "fechaNacimiento": "2000-11-11",
+      "nombreUsuario": "a",
+      "claveUsuario": "a",
+      "nacionalidadUsuario": "a"
+    }
+  ]
 }
