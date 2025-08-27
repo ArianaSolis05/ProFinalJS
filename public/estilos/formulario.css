@@ -1,0 +1,15 @@
+
+.cuadro{
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    border: inset 5px purple;
+    border-radius: 20px;
+    margin: 0 auto;
+    overflow-y: auto;
+}
+
+.div{
+    overflow-x: auto;
+    height: 750px;
+}

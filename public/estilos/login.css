@@ -1,0 +1,52 @@
+body{
+   background: linear-gradient(90deg,rgba(42, 123, 155, 1) 4%, rgba(124, 87, 199, 1) 47%, rgba(64, 64, 194, 1) 94%);
+}
+.contenedor{
+    padding: 20px;
+    margin:0 auto;
+    margin-top: 80px;
+    width: 350px;
+    height: 500px;
+    border: inset;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(50, 88, 124);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.caja{
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+   height: 150px; 
+   width: 150px;
+   object-fit: cover;
+   border-radius: 20px;
+   opacity: 0.4;
+   border: medium solid
+}
+
+.cajita{
+    border-radius: 15px;
+    background-color: rgb(220, 226, 238);
+}
+.boton{
+    border-radius: 5px; 
+    padding: 10px 20px;
+    background-color: #4c93af;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.registrarse{
+    color: rgb(195, 234, 241);
+}
+.registrarse:hover{
+    color: rgb(197, 159, 195);
+}
