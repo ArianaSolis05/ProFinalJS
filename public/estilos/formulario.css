@@ -1,84 +1,83 @@
-body{
-   background: linear-gradient(90deg,rgba(42, 123, 155, 1) 4%, rgb(134, 103, 194) 47%, rgba(64, 64, 194, 1) 94%);
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 4%,
+    rgb(134, 103, 194) 47%,
+    rgba(64, 64, 194, 1) 94%
+  );
 }
-.elementos{
-    color: blueviolet;
-
-<<<<<<< HEAD
-body{
-   background: linear-gradient(90deg,rgba(42, 123, 155, 1) 4%, rgb(134, 103, 194) 47%, rgba(64, 64, 194, 1) 94%);
+.elementos {
+  color: blueviolet;
 }
-.elementos{
-    color: blueviolet;
-=======
->>>>>>> 07ce6d9cf55a440b7ffda1bdbf4f10195f200c29
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 4%,
+    rgb(134, 103, 194) 47%,
+    rgba(64, 64, 194, 1) 94%
+  );
 }
-.cuadro{
-    display: block;
-    width: 400px;
-    height: fit-content;
-    border-radius: 20px;
-    margin: 0 auto;
-    overflow-y: auto;
-    background-color: rgb(50, 88, 124);
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: beige;
-    font-weight: bolder;
+.elementos {
+  color: blueviolet;
 }
-.div{
-    overflow-x: auto;
-    height: 750px;
+.cuadro {
+  display: block;
+  width: 400px;
+  height: fit-content;
+  border-radius: 20px;
+  margin: 0 auto;
+  overflow-y: auto;
+  background-color: rgb(50, 88, 124);
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: beige;
+  font-weight: bolder;
 }
-.botonFormulario{
-<<<<<<< HEAD
-    border-radius: 5px;
-    padding: 10px 20px;
-    background-color: #4C93AF;
-=======
-    border-radius: 5px; 
-    padding: 10px 20px;
-    background-color: #4c93af;
->>>>>>> 07ce6d9cf55a440b7ffda1bdbf4f10195f200c29
-    color: white;
-    border: none;
-    cursor: pointer;
+.div {
+  overflow-x: auto;
+  height: 750px;
 }
-.color{
-<<<<<<< HEAD
-    padding: 10px 15px 10px 45px;
-    border: 2px inset #2196F3;
-    border-radius: 25px;
-    width: 200px;
-    font-size: 10px;
-    color: #333;
-    background-color: #F7F7F7;
-    outline: none;
-    font-size: 15px;
-=======
-    padding: 10px 15px 10px 45px; 
-    border: 2px inset #2196F3; 
-    border-radius: 25px; 
-    width: 200px;
-    font-size: 10px;
-    color: #333;
-    background-color: #f7f7f7; 
-    outline: none;
-    font-size: 15px;
-
->>>>>>> 07ce6d9cf55a440b7ffda1bdbf4f10195f200c29
+.botonFormulario {
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #4c93af;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #4c93af;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #4c93af;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
-.color:hover{
-    background-color: rgb(154, 188, 250);
-    border: inset 2px rgb(58, 28, 228) ;
+.color {
+  padding: 10px 15px 10px 45px;
+  border: 2px inset #2196f3;
+  border-radius: 25px;
+  width: 200px;
+  font-size: 10px;
+  color: #333;
+  background-color: #f7f7f7;
+  outline: none;
+  font-size: 15px;
+  padding: 10px 15px 10px 45px;
+  border: 2px inset #2196f3;
+  border-radius: 25px;
+  width: 200px;
+  font-size: 10px;
+  color: #333;
+  background-color: #f7f7f7;
+  outline: none;
+  font-size: 15px;
 }
-
-<<<<<<< HEAD
-a{
-    text-decoration: none;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    font-weight: bolder;
+.color:hover {
+  background-color: rgb(154, 188, 250);
+  border: inset 2px rgb(58, 28, 228);
 }
-=======
->>>>>>> 07ce6d9cf55a440b7ffda1bdbf4f10195f200c29
+a {
+  text-decoration: none;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+}

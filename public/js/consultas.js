@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 455dae365ca5bf5ba7f53fece8b0881369e1321f
 import { postConsulta } from "../services/fetchConsultas.js";
 
 const nombreCompleto = document.getElementById("nombreCompleto")
@@ -22,6 +25,7 @@ btnConsulta.addEventListener("click", async function () {
 })
 
 
+<<<<<<< HEAD
 =======
 const btnMostrar = document.getElementById("btnMostrar")
 const listaConsultas = document.getElementById("listaConsultas")
@@ -31,3 +35,5 @@ btnMostrar.addEventListener("click",function(){
     formularioConsultas.style.display = "none"
 })
 >>>>>>> 07ce6d9cf55a440b7ffda1bdbf4f10195f200c29
+=======
+>>>>>>> 455dae365ca5bf5ba7f53fece8b0881369e1321f
