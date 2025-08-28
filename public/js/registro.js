@@ -1,4 +1,5 @@
 import { postData } from "../services/fetch.js";
+
 const nombreCompleto = document.getElementById("nombreCompleto");
 const correoUsuario = document.getElementById("correoUsuario");
 const telUsuario = document.getElementById("telUsuario");
@@ -19,5 +20,7 @@ btnGuardarInfo.addEventListener("click", async function () {
     nacionalidadUsuario: nacionalidadUsuario.value,
   };
   const peticion = await postData(usuario, "usuarios");
+  window.location.href = "/pages/login.html";
   console.log(peticion);
+  
 });

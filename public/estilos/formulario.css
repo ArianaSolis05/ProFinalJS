@@ -1,15 +1,54 @@
 
+body{
+   background: linear-gradient(90deg,rgba(42, 123, 155, 1) 4%, rgb(134, 103, 194) 47%, rgba(64, 64, 194, 1) 94%);
+}
+.elementos{
+    color: blueviolet;
+}
 .cuadro{
     display: block;
-    width: fit-content;
+    width: 400px;
     height: fit-content;
-    border: inset 5px purple;
     border-radius: 20px;
     margin: 0 auto;
     overflow-y: auto;
+    background-color: rgb(50, 88, 124);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: beige;
+    font-weight: bolder;
 }
-
 .div{
     overflow-x: auto;
     height: 750px;
+}
+.botonFormulario{
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #4C93AF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.color{
+    padding: 10px 15px 10px 45px;
+    border: 2px inset #2196F3;
+    border-radius: 25px;
+    width: 200px;
+    font-size: 10px;
+    color: #333;
+    background-color: #F7F7F7;
+    outline: none;
+    font-size: 15px;
+}
+.color:hover{
+    background-color: rgb(154, 188, 250);
+    border: inset 2px rgb(58, 28, 228) ;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-weight: bolder;
 }
