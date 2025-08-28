@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<link rel="stylesheet" href="../estilos/formulario.css">
+  </head>
+  <link rel="stylesheet" href="../estilos/formulario.css" />
 
-<body>
-
+  <body>
     <div class="div">
-        <div class="cuadro">
-            <h2>Registro de Usuario</h2>
+      <div class="cuadro">
+        <h2>Registro de Usuario</h2>
 
-            <form action="" method="post">
+        <form action="" method="post">
+          <p>Nombre Completo</p>
+          <input type="text" size="50px" id="nombreCompleto" class="color" />
 
                 <p>Nombre Completo</p>
                 <input type="text" id="nombreCompleto" class="color" >
@@ -25,7 +25,8 @@
                 <p>Telefono</p>
                 <input type="number" id="telUsuario" name="" class="color">
 
-                <p>Fecha de nacimiento</p>
+          <input type="date" id="fechaNacimiento" class="color" />
+          <br />
 
                 <input type="date" name="" id="fechaNacimiento" class="color">
                 <br>
@@ -45,8 +46,6 @@
             </form>
         </div>
     </div>
-    <script src="../js/registro.js"></script>
-
-</body>
-
+    <script type="module" src="../js/registro.js"></script>
+  </body>
 </html>

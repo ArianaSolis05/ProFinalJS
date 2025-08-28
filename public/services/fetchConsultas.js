@@ -1,21 +1,22 @@
-async function postData(obj, endpoint) {
+
+async function postConsulta() {
   try {
-    const peticion = await fetch(`http://localhost:3001/${endpoint}`, {
+    const peticionConsulta = await fetch(`http://localhost:3001/ticket`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(obj),
     });
-    const respuesta = await peticion.json();
-    console.log(respuesta);
-    return respuesta;
+    const respuestaConsulta = await peticionConsulta.json();
+    console.log(respuestaConsulta);
+    return respuestaConsulta;
   } catch (error) {
     console.error(error);
   }
 }
 
-async function getData(endpoint) {
+async function getConsulta(endpoint) {
   try {
     const peticion = await fetch(`http://localhost:3001/${endpoint}`);
     const respuesta = await peticion.json();
@@ -25,4 +26,8 @@ async function getData(endpoint) {
     console.error(error);
   }
 }
-export { postData, getData };
+
+export{postConsulta, getConsulta}
+
+
+

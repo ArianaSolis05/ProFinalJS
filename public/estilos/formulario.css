@@ -4,6 +4,14 @@ body{
 .elementos{
     color: blueviolet;
 
+<<<<<<< HEAD
+=======
+body{
+   background: linear-gradient(90deg,rgba(42, 123, 155, 1) 4%, rgb(134, 103, 194) 47%, rgba(64, 64, 194, 1) 94%);
+}
+.elementos{
+    color: blueviolet;
+>>>>>>> f8a1d9ed69face18300bc073d03dd987d2f40b57
 }
 .cuadro{
     display: block;
@@ -18,20 +26,26 @@ body{
     color: beige;
     font-weight: bolder;
 }
-
 .div{
     overflow-x: auto;
     height: 750px;
 }
 .botonFormulario{
+<<<<<<< HEAD
     border-radius: 5px; 
     padding: 10px 20px;
     background-color: #4c93af;
+=======
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #4C93AF;
+>>>>>>> f8a1d9ed69face18300bc073d03dd987d2f40b57
     color: white;
     border: none;
     cursor: pointer;
 }
 .color{
+<<<<<<< HEAD
     padding: 10px 15px 10px 45px; 
     border: 2px inset #2196F3; 
     border-radius: 25px; 
@@ -42,9 +56,29 @@ body{
     outline: none;
     font-size: 15px;
 
+=======
+    padding: 10px 15px 10px 45px;
+    border: 2px inset #2196F3;
+    border-radius: 25px;
+    width: 200px;
+    font-size: 10px;
+    color: #333;
+    background-color: #F7F7F7;
+    outline: none;
+    font-size: 15px;
+>>>>>>> f8a1d9ed69face18300bc073d03dd987d2f40b57
 }
 .color:hover{
     background-color: rgb(154, 188, 250);
     border: inset 2px rgb(58, 28, 228) ;
 }
 
+<<<<<<< HEAD
+=======
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-weight: bolder;
+}
+>>>>>>> f8a1d9ed69face18300bc073d03dd987d2f40b57
