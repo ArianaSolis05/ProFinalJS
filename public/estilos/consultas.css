@@ -44,3 +44,25 @@ button{
 #listaConsultas{
     display: none;
 }
+
+.tituloConsulta{
+    text-align: center;
+    margin-top: 20px;
+}
+.consulta{
+    text-align: center;
+    display: block;
+    width: 600px;
+    height: 590px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: inset 2px rgb(114, 83, 250);
+    border-bottom: 4px #000000;
+    background-color: beige;
+    border-left: 2px black;
+    border-right: 2px black;
+    overflow: scroll;
+}
+

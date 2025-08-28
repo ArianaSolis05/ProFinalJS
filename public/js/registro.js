@@ -18,5 +18,6 @@ btnGuardarInfo.addEventListener("click", async function () {
     
   };
   const peticion = await postData(usuario, "usuarios");
+  
   console.log(peticion);
 });
