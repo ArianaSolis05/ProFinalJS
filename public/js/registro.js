@@ -16,7 +16,7 @@ btnGuardarInfo.addEventListener("click", async function () {
     fechaNacimiento: fechaNacimiento.value,
     nombreUsuario: nombreUsuario.value,
     claveUsuario: claveUsuario.value,
-    
+    tipoUsuario: "estudiante"
   };
   const peticion = await postData(usuario, "usuarios");
   window.location.href = "/pages/login.html";

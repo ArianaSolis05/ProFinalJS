@@ -6,15 +6,24 @@ const btnIngresar = document.getElementById("btnIngresar");
 
 btnIngresar.addEventListener("click", async function () {
   let users = await getData("usuarios");
-  const usuarioEncontrado = users.find(
+  const usuarioEncontradoProfesor = users.find(
     (user) =>
-      user.correoUsuario === email.value && user.claveUsuario === password.value
+      user.correoUsuario === email.value && user.claveUsuario === password.value && user.tipoUsuario === "profesor"
   );
-  console.log(usuarioEncontrado);
-
-  if (!usuarioEncontrado) {
-    alert("NO QUELE");
+  const usuarioEncontradoEstudiante = users.find(
+    (user) =>
+      user.correoUsuario === email.value && user.claveUsuario === password.value && user.tipoUsuario === "estudiante"
+  );
+  if (!usuarioEncontradoProfesor && !usuarioEncontradoEstudiante) {
+    alert("usuario no existe");
     return;
   }
-  alert("SI QUELE");
+  if (usuarioEncontradoProfesor) {
+    alert('Profesor')
+    return
+  }
+  if (usuarioEncontradoEstudiante) {
+    window.location.href = 'pages/consultas.html'
+    return
+  }
 });

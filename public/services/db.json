@@ -2,56 +2,6 @@
   "ticket": [],
   "usuarios": [
     {
-      "id": "6e14",
-      "nombreCompleto": "luis",
-      "correoUsuario": "lzeledon.fwd21@gmail.com",
-      "telUsuario": "1234555",
-      "fechaNacimiento": "1998-04-13",
-      "nombreUsuario": "LuisZ",
-      "claveUsuario": "1234",
-      "nacionalidadUsuario": "Costa Rica"
-    },
-    {
-      "id": "3368",
-      "nombreCompleto": "a",
-      "correoUsuario": "b",
-      "telUsuario": "",
-      "fechaNacimiento": "2000-11-11",
-      "nombreUsuario": "a",
-      "claveUsuario": "a",
-      "nacionalidadUsuario": "a"
-    },
-    {
-      "id": "08a4",
-      "nombreCompleto": "Ariana Solis",
-      "correoUsuario": "arianasolisfwd@gmail.com",
-      "telUsuario": "123345543",
-      "fechaNacimiento": "2002-01-01",
-      "nombreUsuario": "Ariana",
-      "claveUsuario": "12345",
-      "nacionalidadUsuario": "Costa Rica"
-    },
-    {
-      "id": "589a",
-      "nombreCompleto": "d",
-      "correoUsuario": "d",
-      "telUsuario": "32323",
-      "fechaNacimiento": "0012-02-21",
-      "nombreUsuario": "d",
-      "claveUsuario": "ddsd",
-      "nacionalidadUsuario": "d"
-    },
-    {
-      "id": "294a",
-      "nombreCompleto": "f",
-      "correoUsuario": "ggh",
-      "telUsuario": "121",
-      "fechaNacimiento": "1212-01-12",
-      "nombreUsuario": "fF",
-      "claveUsuario": "ffg",
-      "nacionalidadUsuario": "gfgf"
-    },
-    {
       "id": "570a",
       "nombreCompleto": "pepe",
       "correoUsuario": "pepe@pepe.com",
@@ -59,37 +9,20 @@
       "fechaNacimiento": "2025-08-28",
       "nombreUsuario": "pepeViyuela",
       "claveUsuario": "1234",
-      "nacionalidadUsuario": "Pepelandia"
+      "nacionalidadUsuario": "Pepelandia",
+      "tipoUsuario": "profesor"
     },
     {
-      "id": "8a9d",
-      "nombreCompleto": "",
-      "correoUsuario": "",
-      "telUsuario": "",
-      "fechaNacimiento": "",
-      "nombreUsuario": "",
-      "claveUsuario": "",
-      "nacionalidadUsuario": ""
-    },
-    {
-      "id": "ed67",
-      "nombreCompleto": "Barry",
-      "correoUsuario": "barry@gmail.com",
-      "telUsuario": "12345678",
-      "fechaNacimiento": "2000-02-01",
-      "nombreUsuario": "Barry",
+      "id": "570a",
+      "nombreCompleto": "ari",
+      "correoUsuario": "ari@ari.com",
+      "telUsuario": "911",
+      "fechaNacimiento": "2025-08-28",
+      "nombreUsuario": "AriSOl",
       "claveUsuario": "1234",
-      "nacionalidadUsuario": "Costa Rica"
-    },
-    {
-      "id": "ab09",
-      "nombreCompleto": "Maria",
-      "correoUsuario": "maria22@gmail.com",
-      "telUsuario": "72346234",
-      "fechaNacimiento": "2011-03-10",
-      "nombreUsuario": "Maria",
-      "claveUsuario": "123456",
-      "nacionalidadUsuario": "Costa Rica"
+      "nacionalidadUsuario": "Costa Rica",
+      "tipoUsuario": "estudiante"
     }
+
   ]
 }
