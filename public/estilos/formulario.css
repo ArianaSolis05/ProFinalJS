@@ -1,9 +1,17 @@
-
 body{
    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 4%, rgb(134, 103, 194) 47%, rgba(64, 64, 194, 1) 94%);
 }
 .elementos{
     color: blueviolet;
+
+<<<<<<< HEAD
+body{
+   background: linear-gradient(90deg,rgba(42, 123, 155, 1) 4%, rgb(134, 103, 194) 47%, rgba(64, 64, 194, 1) 94%);
+}
+.elementos{
+    color: blueviolet;
+=======
+>>>>>>> 07ce6d9cf55a440b7ffda1bdbf4f10195f200c29
 }
 .cuadro{
     display: block;
@@ -23,14 +31,21 @@ body{
     height: 750px;
 }
 .botonFormulario{
+<<<<<<< HEAD
     border-radius: 5px;
     padding: 10px 20px;
     background-color: #4C93AF;
+=======
+    border-radius: 5px; 
+    padding: 10px 20px;
+    background-color: #4c93af;
+>>>>>>> 07ce6d9cf55a440b7ffda1bdbf4f10195f200c29
     color: white;
     border: none;
     cursor: pointer;
 }
 .color{
+<<<<<<< HEAD
     padding: 10px 15px 10px 45px;
     border: 2px inset #2196F3;
     border-radius: 25px;
@@ -40,15 +55,30 @@ body{
     background-color: #F7F7F7;
     outline: none;
     font-size: 15px;
+=======
+    padding: 10px 15px 10px 45px; 
+    border: 2px inset #2196F3; 
+    border-radius: 25px; 
+    width: 200px;
+    font-size: 10px;
+    color: #333;
+    background-color: #f7f7f7; 
+    outline: none;
+    font-size: 15px;
+
+>>>>>>> 07ce6d9cf55a440b7ffda1bdbf4f10195f200c29
 }
 .color:hover{
     background-color: rgb(154, 188, 250);
     border: inset 2px rgb(58, 28, 228) ;
 }
 
+<<<<<<< HEAD
 a{
     text-decoration: none;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif; 
     font-weight: bolder;
 }
+=======
+>>>>>>> 07ce6d9cf55a440b7ffda1bdbf4f10195f200c29

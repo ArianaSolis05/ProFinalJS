@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { postConsulta } from "../services/fetchConsultas.js";
 
 const nombreCompleto = document.getElementById("nombreCompleto")
@@ -21,3 +22,12 @@ btnConsulta.addEventListener("click", async function () {
 })
 
 
+=======
+const btnMostrar = document.getElementById("btnMostrar")
+const listaConsultas = document.getElementById("listaConsultas")
+const formularioConsultas = document.getElementById("formularioConsultas")
+btnMostrar.addEventListener("click",function(){
+    listaConsultas.style.display = "block"
+    formularioConsultas.style.display = "none"
+})
+>>>>>>> 07ce6d9cf55a440b7ffda1bdbf4f10195f200c29

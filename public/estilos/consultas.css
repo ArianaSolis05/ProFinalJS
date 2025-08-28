@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(224, 224, 210);
+}
+.div{
+    text-align: center;
+    display: block;
+    width: 600px;
+    height: 590px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: inset 2px rgb(114, 83, 250);
+    border-bottom: 4px #000000;
+    background-color: beige;
+    border-left: 2px black;
+    border-right: 2px black;
+}
+
+.tamañoI{
+    width: 500px;
+}
+
+p{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 47px;
+
+}
+button{
+    margin-top: 40px;
+    border-radius: 30px;
+    border: none
+}
+.tamaño2{
+    width: 90%;
+    height: 120px;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    background-color: #f8f8f8;
+    text-align: top;
+    resize: none;
+}
+#listaConsultas{
+    display: none;
+}
+
+.tituloConsulta{
+    text-align: center;
+    margin-top: 20px;
+}
+.consulta{
+    text-align: center;
+    display: block;
+    width: 600px;
+    height: 590px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: inset 2px rgb(114, 83, 250);
+    border-bottom: 4px #000000;
+    background-color: beige;
+    border-left: 2px black;
+    border-right: 2px black;
+    overflow: scroll;
+}
+
