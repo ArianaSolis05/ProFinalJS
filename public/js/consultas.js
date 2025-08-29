@@ -1,31 +1,27 @@
-import { postConsulta } from "../services/fetchConsultas.js";
+import { postData } from "../services/fetch.js";
 
 const nombreCompleto = document.getElementById("nombreCompleto")
 const correoElectronico = document.getElementById("correoElectronico")
-const tipoConsulta = document.getElementById("tipoConsulta")
+const tipoConsulta = document.getElementById("opcion")
 const mensaje = document.getElementById("mensaje")
 const btnConsulta = document.getElementById("btnConsulta")
+const alertaAgregada = document.getElementById("alertaAgregada")
+const consultaAgregada = document.getElementById("consultaAgregada")
 
-btnConsulta.addEventListener("click", async function () {
+btnConsulta.addEventListener("click", async function (e) {
+    e.preventDefault()
     const consulta = {
         nombreCompleto: nombreCompleto.value,
         correoElectronico: correoElectronico.value,
         tipoConsulta: tipoConsulta.value,
         mensaje: mensaje.value,
     }
+    const peticionConsulta = await postData(consulta, "ticket")
+    consultaAgregada.textContent = "La consulta se agregó con éxito"
+    setTimeout(() => {
+    consultaAgregada.textContent = ""
+        
+    }, 1500);
 
-    const peticionConsulta = await postConsulta(consulta, "ticket")
     console.log(peticionConsulta);
-    
-
-})
-
-
-
-const btnMostrar = document.getElementById("btnMostrar")
-const listaConsultas = document.getElementById("listaConsultas")
-const formularioConsultas = document.getElementById("formularioConsultas")
-btnMostrar.addEventListener("click",function(){
-    listaConsultas.style.display = "block"
-    formularioConsultas.style.display = "none"
 })

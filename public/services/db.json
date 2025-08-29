@@ -1,5 +1,223 @@
 {
-  "ticket": [],
+  "ticket": [
+    {
+      "id": "81f5",
+      "nombreCompleto": "Ariana",
+      "correoElectronico": "ari@ari.com",
+      "tipoConsulta": "medicas",
+      "mensaje": "aaaaa"
+    },
+    {
+      "id": "75e9",
+      "nombreCompleto": "Ariana",
+      "correoElectronico": "ari@ari.com",
+      "tipoConsulta": "medicas",
+      "mensaje": "aaaaa"
+    },
+    {
+      "id": "8e06",
+      "nombreCompleto": "Ariana",
+      "correoElectronico": "ari@ari.com",
+      "tipoConsulta": "administrativa",
+      "mensaje": "aaaaa"
+    },
+    {
+      "id": "5c28",
+      "nombreCompleto": "Ariana",
+      "correoElectronico": "ari@ari.com",
+      "tipoConsulta": "base_datos",
+      "mensaje": "aaaaa"
+    },
+    {
+      "id": "30ac",
+      "nombreCompleto": "Ariana",
+      "correoElectronico": "ari@ari.com",
+      "tipoConsulta": "administrativa",
+      "mensaje": "aaaaa"
+    },
+    {
+      "id": "9497",
+      "nombreCompleto": "Ariana",
+      "correoElectronico": "ari@ari.com",
+      "tipoConsulta": "medicas",
+      "mensaje": "bbbbbb"
+    },
+    {
+      "id": "118d",
+      "nombreCompleto": "Ariana",
+      "correoElectronico": "ari@ari.com",
+      "tipoConsulta": "medicas",
+      "mensaje": "aaaaa"
+    },
+    {
+      "id": "e69f",
+      "nombreCompleto": "Ariana",
+      "correoElectronico": "ari@ari.com",
+      "tipoConsulta": "medicas",
+      "mensaje": "aaaaa"
+    },
+    {
+      "id": "d7c7",
+      "nombreCompleto": "Ariana",
+      "correoElectronico": "ari@ari.com",
+      "tipoConsulta": "medicas",
+      "mensaje": "aaaaa"
+    },
+    {
+      "id": "9b13",
+      "nombreCompleto": "Ariana",
+      "correoElectronico": "ari@ari.com",
+      "tipoConsulta": "medicas",
+      "mensaje": "aaaaa"
+    },
+    {
+      "id": "6f13",
+      "nombreCompleto": "Ariana",
+      "correoElectronico": "ari@ari.com",
+      "tipoConsulta": "medicas",
+      "mensaje": "aaaaa"
+    },
+    {
+      "id": "a355",
+      "nombreCompleto": "Ariana",
+      "correoElectronico": "ari@ari.com",
+      "tipoConsulta": "medicas",
+      "mensaje": "aaaaa"
+    },
+    {
+      "id": "b517",
+      "nombreCompleto": "Ariana",
+      "correoElectronico": "ari@ari.com",
+      "tipoConsulta": "medicas",
+      "mensaje": "aaaaa"
+    },
+    {
+      "id": "c317",
+      "nombreCompleto": "Ariana",
+      "correoElectronico": "ari@ari.com",
+      "tipoConsulta": "medicas",
+      "mensaje": "aaaaa"
+    },
+    {
+      "id": "b843",
+      "nombreCompleto": "Ariana",
+      "correoElectronico": "ari@ari.com",
+      "tipoConsulta": "medicas",
+      "mensaje": "aaaaa"
+    },
+    {
+      "id": "5475",
+      "nombreCompleto": "Ariana",
+      "correoElectronico": "ari@ari.com",
+      "tipoConsulta": "medicas",
+      "mensaje": "aaaaa"
+    },
+    {
+      "id": "3fb4",
+      "nombreCompleto": "Ariana",
+      "correoElectronico": "ari@ari.com",
+      "tipoConsulta": "medicas",
+      "mensaje": "aaaaa"
+    },
+    {
+      "id": "dbde",
+      "nombreCompleto": "",
+      "correoElectronico": "",
+      "tipoConsulta": "academica",
+      "mensaje": ""
+    },
+    {
+      "id": "a545",
+      "nombreCompleto": "",
+      "correoElectronico": "",
+      "tipoConsulta": "academica",
+      "mensaje": ""
+    },
+    {
+      "id": "810c",
+      "nombreCompleto": "",
+      "correoElectronico": "",
+      "tipoConsulta": "academica",
+      "mensaje": ""
+    },
+    {
+      "id": "a22e",
+      "nombreCompleto": "",
+      "correoElectronico": "",
+      "tipoConsulta": "academica",
+      "mensaje": ""
+    },
+    {
+      "id": "c380",
+      "nombreCompleto": "",
+      "correoElectronico": "",
+      "tipoConsulta": "academica",
+      "mensaje": ""
+    },
+    {
+      "id": "aa84",
+      "nombreCompleto": "",
+      "correoElectronico": "",
+      "tipoConsulta": "academica",
+      "mensaje": ""
+    },
+    {
+      "id": "535b",
+      "nombreCompleto": "",
+      "correoElectronico": "",
+      "tipoConsulta": "academica",
+      "mensaje": ""
+    },
+    {
+      "id": "0d33",
+      "nombreCompleto": "",
+      "correoElectronico": "",
+      "tipoConsulta": "academica",
+      "mensaje": ""
+    },
+    {
+      "id": "575a",
+      "nombreCompleto": "",
+      "correoElectronico": "",
+      "tipoConsulta": "academica",
+      "mensaje": ""
+    },
+    {
+      "id": "4eb0",
+      "nombreCompleto": "",
+      "correoElectronico": "",
+      "tipoConsulta": "academica",
+      "mensaje": ""
+    },
+    {
+      "id": "e69f",
+      "nombreCompleto": "",
+      "correoElectronico": "",
+      "tipoConsulta": "academica",
+      "mensaje": ""
+    },
+    {
+      "id": "7e48",
+      "nombreCompleto": "",
+      "correoElectronico": "",
+      "tipoConsulta": "academica",
+      "mensaje": ""
+    },
+    {
+      "id": "dcb8",
+      "nombreCompleto": "Ariana",
+      "correoElectronico": "ari@ari.com",
+      "tipoConsulta": "medicas",
+      "mensaje": "Tengo hambre. Quiero almorzar. "
+    },
+    {
+      "id": "b98d",
+      "nombreCompleto": "Ariana",
+      "correoElectronico": "ari@ari.com",
+      "tipoConsulta": "medicas",
+      "mensaje": "Tengo hambre. Quiero almorzar. "
+    }
+  ],
   "usuarios": [
     {
       "id": "570a",
@@ -30,6 +248,16 @@
       "telUsuario": "123456",
       "fechaNacimiento": "2003-02-01",
       "nombreUsuario": "PedroT",
+      "claveUsuario": "1234",
+      "tipoUsuario": "estudiante"
+    },
+    {
+      "id": "7bed",
+      "nombreCompleto": "Taylor",
+      "correoUsuario": "Taylor@taylor.com",
+      "telUsuario": "345678",
+      "fechaNacimiento": "2005-07-08",
+      "nombreUsuario": "taylor@taylor.com",
       "claveUsuario": "1234",
       "tipoUsuario": "estudiante"
     }
