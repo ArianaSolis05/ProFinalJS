@@ -1,4 +1,4 @@
-import { postConsulta } from "../services/fetchConsultas.js";
+import { postData } from "../services/fetch.js";
 
 const nombreCompleto = document.getElementById("nombreCompleto")
 const correoElectronico = document.getElementById("correoElectronico")
@@ -14,8 +14,17 @@ btnConsulta.addEventListener("click", async function () {
         mensaje: mensaje.value,
     }
 
-    const peticionConsulta = await postConsulta(consulta, "ticket")
+    const peticionConsulta = await postData(consulta, "ticket")
     console.log(peticionConsulta);
+    
+    const contenedor = document.createElement("div")
+    const tabla = document.createElement("table")
+    const consultas = document.createElement("p")
+
+
+    contenedor.appendChild(tabla)
+    tabla.appendChild(consultas)
+
     
 
 })
@@ -29,3 +38,5 @@ btnMostrar.addEventListener("click",function(){
     listaConsultas.style.display = "block"
     formularioConsultas.style.display = "none"
 })
+
+
