@@ -1,6 +1,10 @@
 body{
     background-color: rgb(224, 224, 210);
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
 }
+
 .div{
     text-align: center;
     display: block;
@@ -19,18 +23,29 @@ body{
 
 .tamañoI{
     width: 500px;
+    height:25px;
+    border: inset 1px;
+    border-radius: 10px;
+    background-color: rgb(207, 204, 252);
 }
-
 p{
     margin-top: 30px;
     text-align: left;
     margin-left: 47px;
-
+    font-weight: bolder;
 }
-button{
+.boton{
+    text-align: center;
+    margin: 0 auto;
+    width: 550px;
+    height: 30px;
+    background-color: rgb(62, 62, 177);
+    color: white;
+    font-weight: bolder;
     margin-top: 40px;
-    border-radius: 30px;
+    border-radius: 10px;
     border: none
+    
 }
 .tamaño2{
     width: 90%;
@@ -65,4 +80,36 @@ button{
     border-right: 2px black;
     overflow: scroll;
 }
+.menu{
+    margin-top: 40px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
 
+option{
+    width: 100px;
+   
+    font-weight: bolder;
+}
+
+option:hover{
+    background-color: purple;
+    color: purple;
+}
+
+label{
+    position: relative;
+    top: 7px;
+    margin-right: 30px; 
+    align-items: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+select{
+    position: absolute;
+    right: 625px;
+    top: 310px;
+}

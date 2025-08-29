@@ -75,9 +75,3 @@ body {
   background-color: rgb(154, 188, 250);
   border: inset 2px rgb(58, 28, 228);
 }
-a {
-  text-decoration: none;
-  color: white;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: bolder;
-}

@@ -1,46 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../estilos/consultas.css">
 </head>
+
 <body>
 
     <div class="div" id="formularioConsultas">
-    <h1>Formulario de Consultas</h1>
-    <p>Dejanos tu consulta</p>
+        <h1>Formulario de Consultas</h1>
+        <p>Dejanos tu consulta</p>
 
-    <p>Nombre Completo</p>
-    <input type="text" id="nombreCompleto" class="tamañoI">
+        <p>Nombre Completo</p>
+        <input type="text" id="nombreCompleto" class="tamañoI">
 
-    <p>Correo electrónico</p>
-    <input type="text" id="correoElectronico" class="tamañoI">
+        <p>Correo electrónico</p>
+        <input type="text" id="correoElectronico" class="tamañoI">
+        <br>
+        <label for="">Tipo de consulta</label>
 
-    <p>Tipo de consulta</p>
-    <input type="text" id="tipoConsulta" class="tamañoI">
+        <select id="opcion" class="menu">
+            <option value="academica">Academica</option>
+            <option value="medicas">Medicas</option>
+            <option value="administrativa">Administrativas</option>
+            <option value="base_datos">Bases de datos</option>
+        </select>
 
-    <p>Mensaje</p>
-    <input type="textarea" id="mensaje" class="tamaño2">
-    <br>
-
-    <button id="btnConsulta">Enviar consulta</button>
-
-    <button id="btnMostrar">Mostrar Consultas</button>
-
-    </div>
-
-    <div id="listaConsultas" class="consulta">
-        <h2 class="tituloConsulta">Lista de consultas</h2>
-        <p>¿Cómo me llamo?</p>
-        <p>¿Cómo me llamo?</p>
-        <p>¿Cómo me llamo?</p>
-  
-
+        <br><br>
+        <p>Mensaje</p>
+        <input type="textarea" id="mensaje" class="tamaño2" maxlength="100" minlength="10">
+        <br>
+        <div id="alertaAgregada">
+            <p id="consultaAgregada">
+            </p>
+        </div>
 
     </div>
-     
+        <button type="button" class="boton" id="btnConsulta">Enviar consulta</button>
+        <script type="module" src="../js/consultas.js"></script>
 </body>
-<script type="module" src="../js/consultas.js"></script>
+
+
 </html>

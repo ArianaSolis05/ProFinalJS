@@ -24,6 +24,7 @@ btnIngresar.addEventListener("click", async function () {
   }
   if (usuarioEncontradoProfesor) {
     alert("Profesor");
+    window.location.href="pages/profesores.html"
     return;
   }
   if (usuarioEncontradoEstudiante) {
