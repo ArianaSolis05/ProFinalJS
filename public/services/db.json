@@ -78,6 +78,7 @@
       "mensaje": "consulta de estatus academicos"
     },
     {
+
       "id": "75e9",
       "nombreCompleto": "Ariana",
       "correoElectronico": "ari@ari.com",
@@ -274,11 +275,21 @@
       "mensaje": ""
     },
     {
-      "id": "dcb8",
+      
+
+      "id": "fa2c",
       "nombreCompleto": "Ariana",
       "correoElectronico": "ari@ari.com",
-      "tipoConsulta": "medicas",
-      "mensaje": "Tengo hambre. Quiero almorzar. "
+      "tipoConsulta": "academica",
+      "mensaje": "consulta de estatus academicos"
+    },
+    {
+      "id": "35a8",
+      "nombreCompleto": "Luis",
+      "correoElectronico": "Luis@luis.com",
+      "tipoConsulta": "base_datos",
+      "mensaje": "Notas pasadas de verga"
+
     }
   ],
   "usuarios": [

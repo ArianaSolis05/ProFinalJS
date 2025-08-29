@@ -25,5 +25,3 @@ btnConsulta.addEventListener("click", async function (e) {
 
     console.log(peticionConsulta);
 })
-
-
