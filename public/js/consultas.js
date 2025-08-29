@@ -13,7 +13,7 @@ btnConsulta.addEventListener("click", async function (e) {
     const consulta = {
         nombreCompleto: nombreCompleto.value,
         correoElectronico: correoElectronico.value,
-        tipoConsulta: tipoConsulta.value,g
+        tipoConsulta: tipoConsulta.value,
         mensaje: mensaje.value,
     }
     const peticionConsulta = await postData(consulta, "ticket")
@@ -25,3 +25,5 @@ btnConsulta.addEventListener("click", async function (e) {
 
     console.log(peticionConsulta);
 })
+
+
