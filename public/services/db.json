@@ -22,7 +22,16 @@
       "claveUsuario": "1234",
       "nacionalidadUsuario": "Costa Rica",
       "tipoUsuario": "estudiante"
+    },
+    {
+      "id": "1426",
+      "nombreCompleto": "Pedro",
+      "correoUsuario": "pedro@gmail.com",
+      "telUsuario": "123456",
+      "fechaNacimiento": "2003-02-01",
+      "nombreUsuario": "PedroT",
+      "claveUsuario": "1234",
+      "tipoUsuario": "estudiante"
     }
-
   ]
 }

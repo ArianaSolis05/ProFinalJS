@@ -16,18 +16,10 @@ btnGuardarInfo.addEventListener("click", async function () {
     fechaNacimiento: fechaNacimiento.value,
     nombreUsuario: nombreUsuario.value,
     claveUsuario: claveUsuario.value,
-    tipoUsuario: "estudiante"
+    tipoUsuario: "estudiante",
   };
   const peticion = await postData(usuario, "usuarios");
-<<<<<<< HEAD
-<<<<<<< HEAD
+
   window.location.href = "/pages/login.html";
-=======
-  
->>>>>>> 07ce6d9cf55a440b7ffda1bdbf4f10195f200c29
-=======
-  window.location.href = "/pages/login.html";
->>>>>>> 455dae365ca5bf5ba7f53fece8b0881369e1321f
   console.log(peticion);
-  
 });

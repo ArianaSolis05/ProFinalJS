@@ -8,22 +8,26 @@ btnIngresar.addEventListener("click", async function () {
   let users = await getData("usuarios");
   const usuarioEncontradoProfesor = users.find(
     (user) =>
-      user.correoUsuario === email.value && user.claveUsuario === password.value && user.tipoUsuario === "profesor"
+      user.correoUsuario === email.value &&
+      user.claveUsuario === password.value &&
+      user.tipoUsuario === "profesor"
   );
   const usuarioEncontradoEstudiante = users.find(
     (user) =>
-      user.correoUsuario === email.value && user.claveUsuario === password.value && user.tipoUsuario === "estudiante"
+      user.correoUsuario === email.value &&
+      user.claveUsuario === password.value &&
+      user.tipoUsuario === "estudiante"
   );
   if (!usuarioEncontradoProfesor && !usuarioEncontradoEstudiante) {
     alert("usuario no existe");
     return;
   }
   if (usuarioEncontradoProfesor) {
-    alert('Profesor')
-    return
+    alert("Profesor");
+    return;
   }
   if (usuarioEncontradoEstudiante) {
-    window.location.href = 'pages/consultas.html'
-    return
+    window.location.href = "pages/consultas.html";
+    return;
   }
 });
