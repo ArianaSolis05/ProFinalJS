@@ -13,7 +13,13 @@
     border-left: 2px black;
     border-right: 2px black;
 }
-
+.claseDiv{
+    border: 1px solid #000;
+    padding: 5px;
+    border-radius: 20px;
+    background: #222;
+    color: #fff;
+}
 .lista{   
     text-align: center;
     display: block;

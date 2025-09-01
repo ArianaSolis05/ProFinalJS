@@ -25,4 +25,46 @@ async function getData(endpoint) {
     console.error(error);
   }
 }
-export { postData, getData };
+
+async function deleteConsulta(endpoint, id) {
+  try {
+    const response = await fetch(
+      `http://localhost:3001/${endpoint}` + id + "/",
+      {
+        method: "DELETE",
+        headers: {
+          "Content-type": "application/json",
+        },
+      }
+    );
+
+    const borrarConsulta = await response.json();
+
+    return borrarConsulta;
+  } catch (error) {
+    console.log("Error al eliminar consulta");
+  }
+}
+
+async function patchConsulta(endpoint, consulta, id) {
+  try {
+    const response = await fetch(
+      `http://localhost:3001/${endpoint}` + id + "/",
+      {
+        method: "PATCH",
+        headers: {
+          "Content-type": "application/json",
+        },
+        body: JSON.stringify(consulta),
+      }
+    );
+
+    const consultas = await response.json();
+
+    return consultas;
+  } catch (error) {
+    console.log("Error al editar consulta");
+  }
+}
+
+export { postData, getData, deleteConsulta, patchConsulta };
