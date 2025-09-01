@@ -25,12 +25,19 @@ async function traerConsultas() {
     botonEliminar.textContent = "Eliminar";
     botonResponder.textContent = "Responder";
     botonEditar.textContent = "Editar";
+
+
+    botonEliminar.setAttribute("class", "inputConsulta")
+    botonResponder.setAttribute("class", "inputConsulta")
+    botonEditar.setAttribute("class", "inputConsulta")
+
+
     consulta.textContent = `Nombre: ${consulta.nombreCompleto}  Correo: ${consultas.correo} Tipo de consulta: ${consultas.tipoConsulta} Consulta emitida: ${consultas.mensaje}`;
 
-    nombreCompleto.textContent = consulta.nombreCompleto;
-    correo.textContent = consulta.correoElectronico;
-    tipoConsulta.textContent = consulta.tipoConsulta;
-    mensaje.textContent = consulta.mensaje;
+    nombreCompleto.textContent = `Nombre: ${consulta.nombreCompleto}`;
+    correo.textContent = `Correo: ${consulta.correoElectronico}`;
+    tipoConsulta.textContent = `Tipo Consulta: ${consulta.tipoConsulta}`;
+    mensaje.textContent = `Mensaje: ${consulta.mensaje}`;
 
     listaConsultas.setAttribute("class", "lista");
 
@@ -53,7 +60,7 @@ async function traerConsultas() {
       const respuesta = document.createElement("input");
       const respuestaEnviada = document.createElement("button");
       respuestaEnviada.textContent = "Enviar respuesta";
-
+      respuesta.placeholder = 'AGREGAR RESPUESTA'
       divConsulta.appendChild(respuesta);
       divConsulta.appendChild(respuestaEnviada);
 
@@ -73,8 +80,16 @@ async function traerConsultas() {
     botonEditar.addEventListener("click", function () {
       const btnConfirmar = document.createElement("button");
       const tipoConsulta = document.createElement("input");
+      tipoConsulta.placeholder = "Agregar nuevo tipo"
       const mensaje = document.createElement("input");
       btnConfirmar.textContent = "Confirmar edicion";
+      
+      mensaje.textContent = 'Mensaje de consulta'
+      btnConfirmar.setAttribute("class","inputConsultas");
+      tipoConsulta.setAttribute("class","inputConsultas");
+      mensaje.setAttribute("class","inputConsultas");
+      btnConfirmar.setAttribute("class","inputConsultas");
+
 
       divConsulta.appendChild(btnConfirmar);
       divConsulta.appendChild(tipoConsulta);

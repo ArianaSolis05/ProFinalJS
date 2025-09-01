@@ -20,6 +20,10 @@ btnConsulta.addEventListener("click", async function (e) {
   consultaAgregada.textContent = "La consulta se agregó con éxito";
   setTimeout(() => {
     consultaAgregada.textContent = "";
+    nombreCompleto.value = ''
+    correoElectronico.value = ''
+    tipoConsulta.value = ''
+    mensaje.value = ''
   }, 1500);
 
   console.log(peticionConsulta);
