@@ -4,11 +4,12 @@ body{
     background-size:cover;
 }
 .claseDiv{
-    border: 1px solid #000;
+    border: 1px inset #838181;
     padding: 5px;
     border-radius: 20px;
     background: #222;
     color: #fff;
+
 }
 .lista{   
     text-align: center;
