@@ -17,7 +17,7 @@ async function traerConsultas() {
     mensaje.textContent = consulta.mensaje
 
     listaConsultas.setAttribute("class", "lista");
-
+    
 
     listaConsultas.appendChild(nombreCompleto)
     listaConsultas.appendChild(correo)

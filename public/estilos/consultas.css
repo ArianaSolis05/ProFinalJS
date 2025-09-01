@@ -37,15 +37,18 @@ p{
 .boton{
     text-align: center;
     margin: 0 auto;
-    width: 550px;
+    width: 350px;
     height: 30px;
     background-color: rgb(62, 62, 177);
     color: white;
     font-weight: bolder;
-    margin-top: 40px;
+    margin-top: 20px;
     border-radius: 10px;
     border: none
     
+}
+.boton:hover{
+    background-color: rgb(7, 24, 84);
 }
 .tamaño2{
     width: 90%;
