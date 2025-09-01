@@ -1,17 +1,7 @@
-.a {
-    text-align: center;
-    display: block;
-    width: 600px;
-    height: 590px;
-    border-radius: 10px;
-    margin: 0 auto;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border: inset 2px rgb(114, 83, 250);
-    border-bottom: 4px #000000;
-    background-color: beige;
-    border-left: 2px black;
-    border-right: 2px black;
+body{
+    background-image: url("../imagenes/pexels-alljos-866351.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 .claseDiv{
     border: 1px solid #000;
@@ -24,17 +14,21 @@
     text-align: center;
     display: block;
     width: 600px;
-    height: 590px;
+    height: 620px;
     border-radius: 10px;
     margin: 0 auto;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:unset;
     border: inset 2px rgb(114, 83, 250);
     border-bottom: 4px #000000;
-    background-color: beige;
+    background-color: rgb(218, 218, 218);
     border-left: 2px black;
     border-right: 2px black;
-    
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #555 #949292;  
 }
+
+
 
 

@@ -34,7 +34,11 @@ async function traerConsultas() {
 
     listaConsultas.setAttribute("class", "lista");
 
+
     listaConsultas.appendChild(divConsulta);
+
+    
+
 
     botonEliminar.addEventListener("click", async function () {
       const eliminacionConsulta = await deleteConsulta("ticket/", consulta.id);
