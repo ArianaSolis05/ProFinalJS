@@ -1,95 +1,18 @@
 {
   "ticket": [
     {
-      "id": "6ed8",
-      "nombreCompleto": "Ariana",
-      "correoElectronico": "ari@ari.com",
+      "id": "535b",
+      "nombreCompleto": "",
+      "correoElectronico": "",
       "tipoConsulta": "academica",
-      "mensaje": "consulta de estatus academicos"
+      "mensaje": ""
     },
     {
-      "id": "6302",
-      "nombreCompleto": "Ariana",
-      "correoElectronico": "ari@ari.com",
+      "id": "0d33",
+      "nombreCompleto": "",
+      "correoElectronico": "",
       "tipoConsulta": "academica",
-      "mensaje": "consulta de estatus academicos"
-    },
-    {
-      "id": "cd49",
-      "nombreCompleto": "Ariana",
-      "correoElectronico": "ari@ari.com",
-      "tipoConsulta": "academica",
-      "mensaje": "consulta de estatus academicos"
-    },
-    {
-      "id": "b87b",
-      "nombreCompleto": "Ariana",
-      "correoElectronico": "ari@ari.com",
-      "tipoConsulta": "academica",
-      "mensaje": "consulta de estatus academicos"
-    },
-    {
-      "id": "6983",
-      "nombreCompleto": "Ariana",
-      "correoElectronico": "ari@ari.com",
-      "tipoConsulta": "academica",
-      "mensaje": "consulta de estatus academicos"
-    },
-    {
-      "id": "3b86",
-      "nombreCompleto": "Ariana",
-      "correoElectronico": "ari@ari.com",
-      "tipoConsulta": "academica",
-      "mensaje": "consulta de estatus academicos"
-    },
-    {
-      "id": "7a2d",
-      "nombreCompleto": "Ariana",
-      "correoElectronico": "ari@ari.com",
-      "tipoConsulta": "academica",
-      "mensaje": "consulta de estatus academicos"
-    },
-    {
-      "id": "51c9",
-      "nombreCompleto": "Ariana",
-      "correoElectronico": "ari@ari.com",
-      "tipoConsulta": "academica",
-      "mensaje": "consulta de estatus academicos"
-    },
-    {
-      "id": "7b10",
-      "nombreCompleto": "Ariana",
-      "correoElectronico": "ari@ari.com",
-      "tipoConsulta": "academica",
-      "mensaje": "consulta de estatus academicos"
-    },
-    {
-      "id": "c662",
-      "nombreCompleto": "Ariana",
-      "correoElectronico": "ari@ari.com",
-      "tipoConsulta": "academica",
-      "mensaje": "consulta de estatus academicos"
-    },
-    {
-      "id": "87fd",
-      "nombreCompleto": "Ariana",
-      "correoElectronico": "ari@ari.com",
-      "tipoConsulta": "academica",
-      "mensaje": "consulta de estatus academicos"
-    },
-    {
-      "id": "fa2c",
-      "nombreCompleto": "Ariana",
-      "correoElectronico": "ari@ari.com",
-      "tipoConsulta": "academica",
-      "mensaje": "consulta de estatus academicos"
-    },
-    {
-      "id": "35a8",
-      "nombreCompleto": "Luis",
-      "correoElectronico": "Luis@luis.com",
-      "tipoConsulta": "base_datos",
-      "mensaje": "Notas pasadas de verga"
+      "mensaje": ""
     }
   ],
   "usuarios": [
