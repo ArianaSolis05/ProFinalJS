@@ -4,6 +4,7 @@ const listaConsultas = document.getElementById("listaConsultas");
 
 async function traerConsultas() {
   const consultas = await getData("ticket");
+  listaConsultas.innerHTML = ""
   consultas.forEach((consulta) => {
     const divConsulta = document.createElement("div");
     const nombreCompleto = document.createElement("p");
@@ -57,7 +58,7 @@ async function traerConsultas() {
     botonEliminar.addEventListener("click", async function () {
       const eliminacionConsulta = await deleteConsulta("ticket/", consulta.id);
       console.log(eliminacionConsulta);
-
+      traerConsultas()
       listaConsultas.removeChild(consulta);
       listaConsultas.removeChild(botonEliminar);
       listaConsultas.removeChild(botonEditar);
