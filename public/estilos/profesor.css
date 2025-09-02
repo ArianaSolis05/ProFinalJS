@@ -4,6 +4,7 @@ body{
     background-size:cover;
 }
 .claseDiv{
+
     border: 1px inset #000;
     padding: 5px;
     border-radius: 20px;
@@ -11,6 +12,12 @@ body{
     color: hsl(0, 0%, 12%);
     box-shadow: 20px;
     margin-top: 8px;
+    border: 1px inset #838181;
+    padding: 5px;
+    border-radius: 20px;
+    background: #c7cef1;
+    color: #000000;
+
 }
 .lista{   
     text-align: center;
@@ -32,13 +39,22 @@ body{
     background-color:rgb(139, 144, 243);
     color: rgb(2, 21, 21);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 12px;
+    font-size:15px;
     font-weight: bolder;
     display: flex; 
+    justify-content: space-between;
     gap: 15px;
-    flex-wrap: wrap;
     margin:0 auto;
+    border: none;
 }
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: none;
+}
+
 
 .inputConsulta:hover{
     background-color: rgb(130, 90, 187);
@@ -46,5 +62,24 @@ body{
 }
 
 
+.retornar{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 8px;
+    border-radius: 10px;
+    background-color:rgb(3, 7, 74);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    border: none;
 
 
+}
+ .retornar:hover {
+    background-color: rgb(130, 90, 187);
+
+
+ }

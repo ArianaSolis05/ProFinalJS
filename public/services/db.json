@@ -1,18 +1,12 @@
 {
   "ticket": [
     {
-      "id": "e657",
-      "nombreCompleto": "Ariana",
-      "correoElectronico": "ari@ari.com",
-      "tipoConsulta": "hola",
-      "mensaje": "holaaaaaaa"
-    },
-    {
       "id": "4d8a",
       "nombreCompleto": "Ariana",
       "correoElectronico": "ari@ari.com",
-      "tipoConsulta": "academica",
-      "mensaje": "hola"
+      "tipoConsulta": "jeje",
+      "mensaje": "xddddd",
+      "respuesta": "que es su vara"
     },
     {
       "id": "c9bb",
@@ -54,6 +48,41 @@
       "nombreCompleto": "Ariana",
       "correoElectronico": "ari@ari.com",
       "tipoConsulta": "academica",
+      "mensaje": "bbbbbb"
+    },
+    {
+      "id": "d94d",
+      "nombreCompleto": "Ariana",
+      "correoElectronico": "ari@ari.com",
+      "tipoConsulta": "academica",
+      "mensaje": "bbbbbb"
+    },
+    {
+      "id": "8224",
+      "nombreCompleto": "Ariana",
+      "correoElectronico": "ari@ari.com",
+      "tipoConsulta": "academica",
+      "mensaje": "bbbbbb"
+    },
+    {
+      "id": "c25a",
+      "nombreCompleto": "Ariana",
+      "correoElectronico": "ari@ari.com",
+      "tipoConsulta": "academica",
+      "mensaje": "bbbbbb"
+    },
+    {
+      "id": "99bf",
+      "nombreCompleto": "Ariana",
+      "correoElectronico": "ari@ari.com",
+      "tipoConsulta": "academica",
+      "mensaje": "bbbbbb"
+    },
+    {
+      "id": "5d0c",
+      "nombreCompleto": "Ariana",
+      "correoElectronico": "ari@ari.com",
+      "tipoConsulta": "",
       "mensaje": "bbbbbb"
     }
   ],
@@ -97,6 +126,16 @@
       "telUsuario": "345678",
       "fechaNacimiento": "2005-07-08",
       "nombreUsuario": "taylor@taylor.com",
+      "claveUsuario": "1234",
+      "tipoUsuario": "estudiante"
+    },
+    {
+      "id": "14ba",
+      "nombreCompleto": "josue",
+      "correoUsuario": "minipeka@gmail.com",
+      "telUsuario": "0202020220",
+      "fechaNacimiento": "2025-09-11",
+      "nombreUsuario": "aña",
       "claveUsuario": "1234",
       "tipoUsuario": "estudiante"
     }
